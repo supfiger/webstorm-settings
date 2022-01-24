@@ -1,5 +1,24 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="QuickChangeScheme">
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
+  <action id="Terminal.ClearBuffer">
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="Terminal.RenameSession">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="Terminal.SelectAll">
+    <keyboard-shortcut first-keystroke="meta a" />
+  </action>
+  <action id="Terminal.SwitchFocusToEditor">
+    <keyboard-shortcut first-keystroke="meta e" />
+  </action>
+  <action id="Vcs.UpdateProject" />
 </keymap>
