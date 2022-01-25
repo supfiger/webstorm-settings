@@ -41,6 +41,12 @@
   <action id="QuickChangeScheme">
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
+  <action id="RecentLocations">
+    <keyboard-shortcut first-keystroke="meta alt b" />
+  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
