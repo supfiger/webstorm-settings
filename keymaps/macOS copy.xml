@@ -20,7 +20,6 @@
     <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
-  <action id="Find" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
