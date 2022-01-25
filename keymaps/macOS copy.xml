@@ -10,6 +10,12 @@
     <keyboard-shortcut first-keystroke="shift meta alt c" />
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="Find" />
   <action id="FindInPath">
@@ -29,6 +35,14 @@
     <keyboard-shortcut first-keystroke="alt l" />
   </action>
   <action id="GotoTest" />
+  <action id="List-selectFirstRow" />
+  <action id="List-selectLastRow" />
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="meta close_bracket" />
@@ -67,6 +81,7 @@
     <keyboard-shortcut first-keystroke="shift tab" />
     <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
+  <action id="ShowSearchHistory" />
   <action id="TabList">
     <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
