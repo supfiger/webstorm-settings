@@ -82,6 +82,9 @@
     <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="ShowSearchHistory" />
+  <action id="StructuralSearchPlugin.StructuralReplaceAction">
+    <keyboard-shortcut first-keystroke="shift meta comma" />
+  </action>
   <action id="TabList">
     <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
