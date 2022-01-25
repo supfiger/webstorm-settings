@@ -72,6 +72,7 @@
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta f" />
   </action>
+  <action id="Rerun" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
