@@ -6,6 +6,9 @@
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="meta space" />
+  </action>
   <action id="CopyReference">
     <keyboard-shortcut first-keystroke="shift meta alt c" />
     <keyboard-shortcut first-keystroke="meta l" />
