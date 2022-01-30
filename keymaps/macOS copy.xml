@@ -49,6 +49,9 @@
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="meta o" />
+  </action>
   <action id="ParameterInfo" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl left" />
