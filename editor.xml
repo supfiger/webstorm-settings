@@ -1,4 +1,9 @@
 <application>
+  <component name="CodeInsightSettings">
+    <option name="completionCaseSensitive" value="1" />
+    <option name="COMPLETION_CASE_SENSITIVE" value="1" />
+    <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
+  </component>
   <component name="DefaultFont">
     <option name="FONT_FAMILY" value="Monospaced" />
     <option name="FONT_REGULAR_SUB_FAMILY" value="Regular" />
