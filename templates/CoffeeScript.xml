@@ -1,0 +1,8 @@
+<templateSet group="CoffeeScript">
+  <template name="cl" value="console.log '$VAR$', $VAR$" shortcut="SPACE" description="console.log" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR" expression="capitalize(String)" defaultValue="&quot;arguments&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

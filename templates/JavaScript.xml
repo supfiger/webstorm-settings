@@ -1,0 +1,138 @@
+<templateSet group="JavaScript">
+  <template name="cl" value="console.log('$VAR$', $VAR$)" shortcut="SPACE" description="console.log" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="capitalize(String)" defaultValue="&quot;arguments&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_CLASS" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ct" value="console.time($VAR$)&#10;console.timeEnd($VAR$)" shortcut="SPACE" description="console.log" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="capitalize(String)" defaultValue="&quot;'timer'&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_CLASS" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ch" value="console.log('here')" shortcut="SPACE" description="console.log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_CLASS" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tsk" value="const [$OBJECTS$, $OBJECTS$_tasks] = await get$OBJECTS$(params, ctx)&#10;if (not($OBJECTS$)) return [[], $OBJECTS$_tasks]" shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="OBJECTS" expression="" defaultValue="&quot;objects&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fnm" value="export async function $NAME$(params) {&#10;  return await $GETTER$(await merge(params, {&#10;    $CURSOR$&#10;  }))&#10;}" shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="GETTER" expression="" defaultValue="&quot;getGenericObject&quot;" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="iexec" value="export const $NAME$ = exec(async function $NAME$(props) {&#10;  throw new Quest()$CURSOR$&#10;})" shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ione" value="export const $NAME$ = getOne(&#10;  $NAME$Schema(),&#10;  async function (result, props) {&#10;    $CURSOR$&#10;  },&#10;  async function (result, props) {&#10;  &#10;  },&#10;  async function * (props) {&#10;    yield []&#10;  },&#10;)&#10;" shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="imany" value="export const $NAME$ = getMany(Infinity,&#10;  $NAME$Schema(),&#10;  async function (result, props) {&#10;    $CURSOR$&#10;  },&#10;  async function (result, props) {&#10;  &#10;  },&#10;  async function * (props) {&#10;    yield []&#10;  },&#10;)&#10;" shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="ischema" value="export const $NAME$ = function () {&#10;  return Joi.object({&#10;    $CURSOR$&#10;  })&#10;}&#10;" shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="assert" value="console.assert($END$)" description="console.assert()" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="fnw" value="export async function $NAME$(context: ShieldContext) {&#10;  throw towel()$CURSOR$&#10;}" shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="sch" value="import { z } from 'zod'&#10;&#10;export const $TYPE$Schema = z.object({&#10;  $CURSOR$&#10;})&#10;&#10;export type $TYPE$ = z.infer&lt;typeof $TYPE$Schema&gt;" shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="fns" value="export async function $NAME$(project: $PROJECT$) {&#10;  throw task()$CURSOR$&#10;}" shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROJECT" expression="escapeString(&quot;ShieldProject&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="fnc" value="export async function $NAME$(project: $PROJECT$) {&#10;  throw task()$CURSOR$&#10;}" shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROJECT" expression="escapeString(&quot;ColiquidityProject&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="fnp" value="export async function $NAME$(project: $PROJECT$) {&#10;  throw task()$CURSOR$&#10;}" shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROJECT" expression="escapeString(&quot;PixartProject&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="fnl" value="export async function $NAME$(project: $PROJECT$) {&#10;  throw task()$CURSOR$&#10;}" shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROJECT" expression="escapeString(&quot;LootProject&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="fno" value="export async function $NAME$(project: $PROJECT$) {&#10;  throw task()$CURSOR$&#10;}" shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROJECT" expression="escapeString(&quot;OldenProject&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+</templateSet>

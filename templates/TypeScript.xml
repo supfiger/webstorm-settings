@@ -1,0 +1,71 @@
+<templateSet group="TypeScript">
+  <template name="mdl" value="import { z } from 'zod'&#10;import { toUidFromSchema, Uid } from 'src/Generic/models/Uid'&#10;&#10;export const $NAME$Schema = z.object({&#10;  $FIELD1_NAME$: $FIELD1_DEF$,&#10;})&#10;&#10;export const $NAME$UidSchema = $NAME$Schema.pick({&#10;  $FIELD1_NAME$: true,&#10;  $FIELD2_NAME$: true,&#10;})&#10;&#10;export type $NAME$ = z.infer&lt;typeof $NAME$Schema&gt;&#10;&#10;export type $NAME$Uid = z.infer&lt;typeof $NAME$UidSchema&gt;&#10;&#10;export function validate$NAME$($NAME_LOWER$: $NAME$): $NAME$ {&#10;  return $NAME$Schema.parse($NAME_LOWER$)&#10;}&#10;&#10;export function get$NAME$Uid($NAME_LOWER$Uid: $NAME$Uid): Uid {&#10;  return toUidFromSchema($NAME_LOWER$Uid, $NAME$UidSchema)&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="fileNameWithoutExtension()" alwaysStopAt="true" />
+    <variable name="NAME_LOWER" expression="camelCase(NAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD1_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD1_DEF" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD2_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="mda" value="import { get$NAME$Uid, $NAME$, $NAME$Schema } from '../models/$NAME$'&#10;import { getFinder, getInserter } from 'util/zod'&#10;&#10;export const all$NAME_PLURAL$: $NAME$[] = []&#10;&#10;export const add$NAME$ = getInserter('$NAME$', $NAME$Schema, get$NAME$Uid, all$NAME_PLURAL$)&#10;&#10;export const find$NAME$ = getFinder(get$NAME$Uid, all$NAME_PLURAL$)&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="fileNameWithoutExtension()" alwaysStopAt="true" />
+    <variable name="NAME_PLURAL" expression="" defaultValue="concat(NAME, &quot;s&quot;)" alwaysStopAt="true" />
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="af" value="async function $NAME$($ARGS$) {&#10;  $IMPL$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IMPL" expression="" defaultValue="&quot;throw impl()&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_DOT_PROPERTY_ACCESS" value="false" />
+    </context>
+  </template>
+  <template name="ti" value="throw impl()" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_DOT_PROPERTY_ACCESS" value="false" />
+    </context>
+  </template>
+  <template name="p" value="Promise&lt;$CURSOR$&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_DOT_PROPERTY_ACCESS" value="false" />
+    </context>
+  </template>
+  <template name="eaf" value="export async function $NAME$($ARGS$) {&#10;  $IMPL$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IMPL" expression="" defaultValue="&quot;throw impl()&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_DOT_PROPERTY_ACCESS" value="false" />
+    </context>
+  </template>
+  <template name="ef" value="export function $NAME$($ARGS$) {&#10;  $IMPL$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IMPL" expression="" defaultValue="&quot;throw impl()&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_DOT_PROPERTY_ACCESS" value="false" />
+    </context>
+  </template>
+  <template name="tt" value="throw task()" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_DOT_PROPERTY_ACCESS" value="false" />
+    </context>
+  </template>
+</templateSet>
