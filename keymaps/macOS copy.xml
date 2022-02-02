@@ -3,6 +3,7 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="ChangesView.GroupBy.Directory" />
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
@@ -17,6 +18,9 @@
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="FindInPath">
@@ -52,6 +56,9 @@
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
   <action id="ParameterInfo" />
+  <action id="PinActiveTab">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl left" />
     <keyboard-shortcut first-keystroke="meta open_bracket" />
@@ -90,6 +97,7 @@
     <keyboard-shortcut first-keystroke="shift tab" />
     <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
+  <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowSearchHistory" />
   <action id="StructuralSearchPlugin.StructuralReplaceAction">
     <keyboard-shortcut first-keystroke="shift meta comma" />
@@ -109,5 +117,7 @@
   <action id="Terminal.SwitchFocusToEditor">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
+  <action id="TodoViewGroupByShowPackages" />
+  <action id="UsageGrouping.Directory" />
   <action id="Vcs.UpdateProject" />
 </keymap>
