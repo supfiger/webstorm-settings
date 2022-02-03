@@ -43,6 +43,10 @@
   <action id="GotoTest" />
   <action id="List-selectFirstRow" />
   <action id="List-selectLastRow" />
+  <action id="Move">
+    <keyboard-shortcut first-keystroke="f6" />
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
   <action id="MoveStatementDown">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
