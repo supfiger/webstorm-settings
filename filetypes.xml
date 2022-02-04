@@ -2,8 +2,14 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="lint-markdown-links" type="AUTO_DETECTED" />
+      <removed_mapping ext="config" type="Erlang Terms" />
+      <removed_mapping ext="app" type="Erlang/OTP app" />
       <mapping pattern=".deadlink.config" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
+      <removed_mapping ext="config" approved="true" type="XML" />
+      <removed_mapping ext="md" approved="true" type="XML" />
+      <removed_mapping ext="permissionset" approved="true" type="XML" />
+      <removed_mapping ext="profile" approved="true" type="XML" />
     </extensionMap>
   </component>
 </application>
