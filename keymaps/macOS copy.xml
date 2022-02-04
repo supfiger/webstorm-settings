@@ -27,9 +27,7 @@
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
-  <action id="FindNext">
-    <keyboard-shortcut first-keystroke="enter" />
-  </action>
+  <action id="FindNext" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="meta g" />
