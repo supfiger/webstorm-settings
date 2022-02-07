@@ -111,6 +111,9 @@
   <action id="StructuralSearchPlugin.StructuralReplaceAction">
     <keyboard-shortcut first-keystroke="shift meta comma" />
   </action>
+  <action id="StructuralSearchPlugin.StructuralSearchAction">
+    <keyboard-shortcut first-keystroke="shift meta semicolon" />
+  </action>
   <action id="TabList">
     <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
