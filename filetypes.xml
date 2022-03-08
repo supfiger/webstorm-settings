@@ -2,9 +2,10 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="lint-markdown-links" type="AUTO_DETECTED" />
-      <mapping pattern=".deadlink.config" type="PLAIN_TEXT" />
+      <mapping pattern="*rc" type="JSON" />
       <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
+      <mapping pattern=".deadlink.config" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
       <mapping ext="api" type="PLAIN_TEXT" />
