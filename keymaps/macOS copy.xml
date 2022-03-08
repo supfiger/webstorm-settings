@@ -25,6 +25,9 @@
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
   </action>
+  <action id="EslintImportCodeStyle">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="Find" />
   <action id="FindInPath">
@@ -43,6 +46,9 @@
     <keyboard-shortcut first-keystroke="alt l" />
   </action>
   <action id="GotoTest" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
   <action id="List-selectFirstRow" />
   <action id="List-selectLastRow" />
   <action id="Move">
