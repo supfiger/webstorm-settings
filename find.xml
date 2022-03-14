@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Custom find scope" />
     <option name="defaultScopeName" value="Custom find scope" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Custom find scope" />
   </component>
 </application>
