@@ -18,6 +18,7 @@
       <removed_mapping ext="md" approved="true" type="XML" />
       <removed_mapping ext="permissionset" approved="true" type="XML" />
       <removed_mapping ext="profile" approved="true" type="XML" />
+      <removed_mapping pattern=".prettierignore" approved="true" type="Prettier File" />
     </extensionMap>
   </component>
 </application>
