@@ -3,6 +3,8 @@
     <extensionMap>
       <mapping pattern="lint-markdown-links" type="AUTO_DETECTED" />
       <mapping pattern="*rc" type="JSON" />
+      <mapping ext="js " type="JavaScript" />
+      <mapping pattern="webpack.config.js" type="PLAIN_TEXT" />
       <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping pattern=".env.qa" type="PLAIN_TEXT" />
