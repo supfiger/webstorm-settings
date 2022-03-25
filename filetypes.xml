@@ -14,6 +14,7 @@
       <mapping pattern=".env.staging" type="PLAIN_TEXT" />
       <mapping pattern=".env.remote-db" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping ext="fsd" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
       <mapping ext="api" type="PLAIN_TEXT" />
       <removed_mapping ext="app" approved="true" type="Erlang/OTP app" />
