@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="dasf" type="AUTO_DETECTED" />
       <mapping pattern="lint-markdown-links" type="AUTO_DETECTED" />
       <mapping pattern="*rc" type="JSON" />
       <mapping pattern="webpack.config.js" type="JavaScript" />
