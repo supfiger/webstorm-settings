@@ -18,6 +18,7 @@
       <mapping ext="fsd" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
       <mapping ext="api" type="PLAIN_TEXT" />
+      <mapping pattern="HubSpot.ts" type="TypeScript" />
       <removed_mapping ext="app" approved="true" type="Erlang/OTP app" />
       <removed_mapping ext="config" approved="true" type="Erlang Terms" />
       <removed_mapping ext="config" approved="true" type="XML" />
