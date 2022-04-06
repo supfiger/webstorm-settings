@@ -9,6 +9,7 @@
       <mapping pattern="dasf" type="AUTO_DETECTED" />
       <mapping pattern="*rc" type="JSON" />
       <mapping pattern="dotenv-parser.js" type="JavaScript" />
+      <mapping pattern="dotenv.js" type="JavaScript" />
       <mapping pattern="dotenv.config.js" type="JavaScript" />
       <mapping pattern="webpack.config.js" type="JavaScript" />
       <mapping pattern="set-env.js" type="JavaScript" />
@@ -28,6 +29,7 @@
       <mapping ext="fsd" type="PLAIN_TEXT" />
       <mapping pattern="MySafety.ts" type="TypeScript" />
       <mapping pattern="HubSpot.ts" type="TypeScript" />
+      <mapping pattern="dotenv.ts" type="TypeScript" />
       <mapping pattern="Package.tsx" type="TypeScript JSX" />
       <mapping pattern="StartSignUpPage.tsx" type="TypeScript JSX" />
       <mapping ext="tsx" type="TypeScript JSX" />
