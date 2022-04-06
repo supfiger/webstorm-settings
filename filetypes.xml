@@ -8,6 +8,7 @@
       <mapping pattern="lint-markdown-links" type="AUTO_DETECTED" />
       <mapping pattern="dasf" type="AUTO_DETECTED" />
       <mapping pattern="*rc" type="JSON" />
+      <mapping pattern="dotenv-parser.js" type="JavaScript" />
       <mapping pattern="webpack.config.js" type="JavaScript" />
       <mapping ext="js " type="JavaScript" />
       <mapping pattern=".env*" type="Native" />
