@@ -20,8 +20,9 @@
       <mapping ext="fsd" type="PLAIN_TEXT" />
       <mapping pattern="MySafety.ts" type="TypeScript" />
       <mapping pattern="HubSpot.ts" type="TypeScript" />
-      <mapping ext="tsx" type="TypeScript" />
-      <removed_mapping ext="tsx" type="TypeScript JSX" />
+      <mapping pattern="Package.tsx" type="TypeScript JSX" />
+      <mapping pattern="StartSignUpPage.tsx" type="TypeScript JSX" />
+      <mapping ext="tsx" type="TypeScript JSX" />
       <removed_mapping ext="app" approved="true" type="Erlang/OTP app" />
       <removed_mapping ext="config" approved="true" type="Erlang Terms" />
       <removed_mapping ext="config" approved="true" type="XML" />
