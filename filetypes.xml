@@ -15,6 +15,7 @@
       <mapping pattern=".env-cmdrc.js" type="JavaScript" />
       <mapping pattern="dotenv.config.js" type="JavaScript" />
       <mapping pattern=".env-cmdrc.example.js" type="JavaScript" />
+      <mapping pattern="env-config.js" type="JavaScript" />
       <mapping pattern="env.js" type="JavaScript" />
       <mapping ext="js " type="JavaScript" />
       <mapping pattern=".env*" type="Native" />
@@ -33,6 +34,7 @@
       <mapping pattern="get-env-for-deploy.sh" type="Shell Script" />
       <mapping pattern="get-env.sh" type="Shell Script" />
       <mapping pattern="MySafety.ts" type="TypeScript" />
+      <mapping pattern="env-config.ts" type="TypeScript" />
       <mapping pattern="env.ts" type="TypeScript" />
       <mapping pattern="env-files.ts" type="TypeScript" />
       <mapping pattern="HubSpot.ts" type="TypeScript" />
