@@ -31,8 +31,10 @@
       <mapping ext="config" type="PLAIN_TEXT" />
       <mapping ext="api" type="PLAIN_TEXT" />
       <mapping ext="fsd" type="PLAIN_TEXT" />
+      <mapping pattern=".sh" type="Shell Script" />
       <mapping pattern="get-env-for-deploy.sh" type="Shell Script" />
       <mapping pattern="get-env.sh" type="Shell Script" />
+      <mapping pattern="load-env.sh" type="Shell Script" />
       <mapping pattern="MySafety.ts" type="TypeScript" />
       <mapping pattern="env-config.ts" type="TypeScript" />
       <mapping pattern="env.ts" type="TypeScript" />
