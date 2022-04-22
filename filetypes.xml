@@ -35,12 +35,15 @@
       <mapping pattern="get-env-for-deploy.sh" type="Shell Script" />
       <mapping pattern="get-env.sh" type="Shell Script" />
       <mapping pattern="load-env.sh" type="Shell Script" />
+      <mapping pattern="env.service.ts" type="TypeScript" />
       <mapping pattern="MySafety.ts" type="TypeScript" />
+      <mapping pattern="env.module.ts" type="TypeScript" />
       <mapping pattern="env-config.ts" type="TypeScript" />
       <mapping pattern="env.ts" type="TypeScript" />
       <mapping pattern="env-files.ts" type="TypeScript" />
       <mapping pattern="HubSpot.ts" type="TypeScript" />
       <mapping pattern="dotenv.ts" type="TypeScript" />
+      <mapping pattern="env.service.spec.ts" type="TypeScript" />
       <mapping pattern="Package.tsx" type="TypeScript JSX" />
       <mapping pattern="StartSignUpPage.tsx" type="TypeScript JSX" />
       <removed_mapping ext="app" approved="true" type="Erlang/OTP app" />
