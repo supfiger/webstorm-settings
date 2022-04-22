@@ -2,10 +2,13 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="*env*" type=".env file" />
+      <mapping pattern=".env.qa" type=".env file" />
+      <mapping pattern=".env.dev" type=".env file" />
+      <mapping pattern=".env.staging" type=".env file" />
+      <mapping pattern=".env(example)" type=".env file" />
       <mapping pattern=".env.dev.example" type=".env file" />
       <mapping pattern="testfile" type="AUTO_DETECTED" />
       <mapping pattern="dasf" type="AUTO_DETECTED" />
-      <mapping pattern=".env(example)" type="AUTO_DETECTED" />
       <mapping pattern="lint-markdown-links" type="AUTO_DETECTED" />
       <mapping pattern="*rc" type="JSON" />
       <mapping pattern="webpack.config.js" type="JavaScript" />
@@ -22,11 +25,8 @@
       <mapping pattern=".env.*" type="PLAIN_TEXT" />
       <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
-      <mapping pattern=".env.qa" type="PLAIN_TEXT" />
       <mapping pattern=".env.copy" type="PLAIN_TEXT" />
-      <mapping pattern=".env.dev" type="PLAIN_TEXT" />
       <mapping pattern=".deadlink.config" type="PLAIN_TEXT" />
-      <mapping pattern=".env.staging" type="PLAIN_TEXT" />
       <mapping pattern=".env.remote-db" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
       <mapping ext="api" type="PLAIN_TEXT" />
