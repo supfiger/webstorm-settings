@@ -9,6 +9,7 @@
       <mapping pattern=".env.dev.example" type=".env file" />
       <mapping pattern="testfile" type="AUTO_DETECTED" />
       <mapping pattern="dasf" type="AUTO_DETECTED" />
+      <mapping pattern="stratch" type="AUTO_DETECTED" />
       <mapping pattern="lint-markdown-links" type="AUTO_DETECTED" />
       <mapping pattern="*rc" type="JSON" />
       <mapping pattern="webpack.config.js" type="JavaScript" />
