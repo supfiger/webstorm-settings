@@ -9,6 +9,7 @@
       <mapping pattern=".env.dev.example" type=".env file" />
       <mapping pattern="data" type="AUTO_DETECTED" />
       <mapping pattern="testfile" type="AUTO_DETECTED" />
+      <mapping pattern="_redirects" type="AUTO_DETECTED" />
       <mapping pattern="dasf" type="AUTO_DETECTED" />
       <mapping pattern="storage" type="AUTO_DETECTED" />
       <mapping pattern="stratch" type="AUTO_DETECTED" />
