@@ -1,5 +1,11 @@
 <application>
   <component name="GraziConfig">
+    <option name="enabledLanguages">
+      <set>
+        <option value="English (US)" />
+        <option value="Swedish" />
+      </set>
+    </option>
     <option name="userEnabledRules">
       <set>
         <option value="LanguageTool.EN.EN_SPECIFIC_CASE" />
