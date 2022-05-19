@@ -36,6 +36,7 @@
       <mapping ext="api" type="PLAIN_TEXT" />
       <mapping ext="fsd" type="PLAIN_TEXT" />
       <mapping pattern=".sh" type="Shell Script" />
+      <mapping pattern="load-env-to-bash.sh" type="Shell Script" />
       <mapping pattern="get-env-for-deploy.sh" type="Shell Script" />
       <mapping pattern="get-env.sh" type="Shell Script" />
       <mapping pattern="load-env.sh" type="Shell Script" />
