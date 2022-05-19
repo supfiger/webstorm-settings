@@ -45,6 +45,7 @@
       <mapping pattern="env-config.ts" type="TypeScript" />
       <mapping pattern="env.ts" type="TypeScript" />
       <mapping pattern="env-files.ts" type="TypeScript" />
+      <mapping pattern="env.config.ts" type="TypeScript" />
       <mapping pattern="HubSpot.ts" type="TypeScript" />
       <mapping pattern="dotenv.ts" type="TypeScript" />
       <mapping pattern="env.service.spec.ts" type="TypeScript" />
